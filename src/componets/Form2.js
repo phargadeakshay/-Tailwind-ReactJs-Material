@@ -113,19 +113,19 @@ const Form2 = (props) => {
 
 export default Form2;
 
-{
-  <div>
-    {records.map((curElement) => {
-      const { id, fname, lname, email, phone, passwd } = curElement;
-      return (
-        <div key={id}>
-          <p>Name: {fname}</p>
-          <p>Name: {lname}</p>
-          <p>Email: {email}</p>
-          <p>Phone: {phone}</p>
-          <p>Password: {pwd}</p>
-        </div>
-      );
-    })}
-  </div>;
-}
+// {
+//   <div>
+//     {records.map((curElement) => {
+//       const { id, fname, lname, email, phone, passwd } = curElement;
+//       return (
+//         <div key={id}>
+//           <p>Name: {fname}</p>
+//           <p>Name: {lname}</p>
+//           <p>Email: {email}</p>
+//           <p>Phone: {phone}</p>
+//           <p>Password: {passwd}</p>
+//         </div>
+//       );
+//     })}
+//   </div>;
+// }
